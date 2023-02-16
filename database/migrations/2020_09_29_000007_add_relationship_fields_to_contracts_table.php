@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddRelationshipFieldsToContractsTable extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -13,4 +13,4 @@ class AddRelationshipFieldsToContractsTable extends Migration
             $table->foreign('client_id', 'client_fk_2289839')->references('id')->on('users');
         });
     }
-}
+};
