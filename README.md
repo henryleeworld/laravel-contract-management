@@ -1,4 +1,4 @@
-# Laravel 9 契約管理
+# Laravel 10 契約管理
 
 在法律上要訂定契約，是以意思表示為之，意思表示可以用明示或默示的方式表達出來，除了少數法律設有強制或禁止規定的情況外，基本上交易雙方當事人都可以基於契約自由原則，自由形成契約內容，以規範雙方當事人間的法律關係。
 
@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/login` 來進行登入，預設的電子郵件和密碼分別為 __admin@admin.com__ 和 __password__ 。
@@ -31,5 +35,5 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/GdPOnLR.png)
+![](https://i.imgur.com/UA8lYlo.png)
 > 好的契約帶來好的合作開始，按照過往經驗，通常契約制定越詳細、越謹慎，代表雙方更重視合作的實質內容與未來發展遠景，同時也加強雙方合作的信任基礎，有一份好的契約，除了保障締約方之外，也可以有效避免將來訴訟的發生

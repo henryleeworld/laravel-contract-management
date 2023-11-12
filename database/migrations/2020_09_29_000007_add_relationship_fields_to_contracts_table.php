@@ -9,8 +9,8 @@ return new class extends Migration
     public function up()
     {
         Schema::table('contracts', function (Blueprint $table) {
-            $table->unsignedInteger('client_id')->nullable();
-            $table->foreign('client_id', 'client_fk_2289839')->references('id')->on('users');
+            $table->unsignedBigInteger('client_id')->nullable();
+            $table->foreign('client_id')->references('id')->on('users');
         });
     }
 };
