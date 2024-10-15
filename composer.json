@@ -7,10 +7,10 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.41",
+        "laravel/framework": "^10.45",
         "laravel/passport": "^11.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8",
+        "laravel/tinker": "^2.9",
         "laravel/ui": "^4.4",
         "yajra/laravel-datatables-oracle": "^10.11"
     },
@@ -18,8 +18,8 @@
         "bugsnag/bugsnag-laravel": "^2.26",
         "fakerphp/faker": "^1.23.1",
         "laravel/dusk": "^7.12",
-        "laravel/pint": "^1.13",
-        "laravel/sail": "^1.27",
+        "laravel/pint": "^1.14",
+        "laravel/sail": "^1.28",
         "mockery/mockery": "^1.6.7",
         "nunomaduro/collision": "^7.10",
         "phpunit/phpunit": "^10.5",
